@@ -50,7 +50,19 @@
     margin : 30px 120px;
   }
 
+  .main {
+    display: flex;
+  }
+
+  img {
+    width : 300px;
+    margin-left : 200px;
+    border-radius: 70%;
+  }
+
   header h1 {
+    margin-top : 0px;
+    margin-bottom : 0px;
     color: #333;
     font-size: 64px;
     font-style: normal;

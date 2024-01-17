@@ -2,10 +2,22 @@
 <html lang="ko">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PGGJ9B010D"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PGGJ9B010D');
+    </script>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel='stylesheet' href='./style.css'>
+    <link rel='stylesheet' href='./response.css' media="screen and (max-width: 400px)">
 </head>
 
 <body>
@@ -16,7 +28,7 @@
         <!-- 리액트/뷰같은 프레임워크 스타일 -->
         <div class="navItem">Project</div>
         <div class="navItem">Recommend</div>
-        <div class="navItem">Home</div>
+        <div class="navItem">Contact</div>
     </nav>
 
     <header>
@@ -31,8 +43,8 @@
             </div>
         </div>
         <div class="headerLinkContainer">
-            <a class="headerLink" href="https://github.com/sjun516" target="_blank" style="background-color: black; color: white;";>Github Link</a>
-            <a class="headerLink" href="#" target="_blank" style="color: black; border: 4px solid black;">Resume Link</a>
+            <a class="headerLink" onclick="onClickButton()" href="https://github.com/sjun516" target="_blank" style="background-color: black; color: white;";>Github Link</a>
+            <a class="headerLink resumelink" onclick="onClickButton()" href="#" target="_blank">Resume Link</a>
         </div>
     </header>
 

@@ -48,6 +48,7 @@
   
   header{
     margin : 30px 200px;
+    margin-bottom: 100px;
   }
 
   .main {
@@ -93,23 +94,20 @@
     padding: 25px 80px;
     display: block;
     text-decoration: none;
-    
-    margin-bottom : 20px;
   }
 
   .resumelink{
     color: black;
-    border: 6px solid black;
+    border: 4px solid black;
   }
 
   main {
-    padding: 12px;
+    padding: 1px;
     background: linear-gradient(to right, #c8e5ff, #ecffff);
   }
 
   .introduce {
-    margin : 50px 200px;
-    padding: 12px;
+    margin : 100px 200px;
     background: linear-gradient(to right, #c8e5ff, #ecffff);
   }
 
@@ -117,8 +115,8 @@
     width: 50px;
     height: auto;
     position : absolute;
-    left : 21.2%;
-    top:90%;
+    left : 25%;
+    top:100%;
   }
 
   .stack {

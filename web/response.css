@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "Cafe24Supermagic-Bold-v1.0";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2")
+      format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+@media screen and (max-width: 400px) {
+    body {
+        font-family: "Cafe24Supermagic-Bold-v1.0";
+      }
+      
+      nav {
+        /* 레이아웃에 대한 스타일(5~10줄) */
+      
+        padding-left: 30px;
+        gap: 45px;
+        height: 60px;
+        font-size: 12px;
+
+      }
+      
+      .navItem {
+      }
+      
+      .badge {
+        /* display: flex; */
+        
+        padding: 3px 20px;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* gap: 10px; */
+        border-radius: 10px;
+        background: #e6eeff;
+      
+        /* 텍스트 속성 */
+        font-size: 13px;
+        /* font-weight: 600; */
+        line-height: 24px;
+        /* word-wrap: break-word; */
+      
+        margin-bottom: 0px;
+      }
+      
+      header{
+        margin : 20px 30px;
+        margin-bottom: 50px;
+      }
+    
+      .main {
+        display: flex;
+      }
+    
+      .profile {
+        width : 0px;
+      }
+
+      .profileimage {
+        width : 0px;
+      }
+    
+      header h1 {
+        margin-top : 10px;
+        margin-bottom : 10px;
+        color: #333;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%; /* 80px */
+        letter-spacing: -1.28px;
+      }
+      
+      header h1 em {
+        background: linear-gradient(
+          99deg,
+          #001f8f 3.58%,
+          rgba(36, 255, 203, 0.5) 90.34%
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .headerLinkContainer {
+        line-height: 3;
+        margin-top : 35px;
+        gap : 10px;
+        /* flex-direction: row; */
+      }
+      
+      .resumelink{
+        border: 1px solid black;
+      }
+
+      .headerLink {
+        
+        font-size: 12px;
+        border-radius: 10px;
+        /* background-color: ; */
+        padding: 3px 20px;
+        display: block;
+        text-decoration: none;
+      }
+    
+      main {
+        padding : 0px;
+        padding-top : 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(to right, #c8e5ff, #ecffff);
+      }
+      
+      main div h2 {
+        font-size: 18px;
+      }
+      
+      .introduce {
+        font-size: 13px;
+        margin : 20px 30px;
+        padding: 0px;
+        background: linear-gradient(to right, #c8e5ff, #ecffff);
+      }
+    
+      .super{
+        width: 40px;
+        height: auto;
+        position : absolute;
+        left : 42%;
+        top:40%;
+      }
+    
+      .stack {
+        margin : 50px 30px;
+        text-align: left;
+      }
+      
+      .fixedContactButton {
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+      
+        border-radius: 50px;
+        border: 0px solid #bbd5f7;
+        background: white;
+        width: 165px;
+        padding: 20px 40px;
+        color: rgba(64, 57, 48, 0.8);
+      
+        text-align: center;
+        font-size: 0px;
+      }
+    
+    .imagestack{
+      margin : 50px 200px;
+      display:flex;
+      justify-content: space-evenly;
+    }
+    
+    .imagestack2 {
+      width : 100px;
+      height : 95px;
+    }
+      /* ----- 애니메이션 ---- */
+    
+    .typing {
+      animation: blink 1.5s infinite;
+    }
+    
+    @keyframes blink {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+      }
+    }
+  }
+
+  
+  

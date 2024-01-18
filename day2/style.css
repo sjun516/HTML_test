@@ -149,9 +149,11 @@
   }
 
 .imagestack{
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
+  grid-row-gap : 50px;
+  grid-column-gap: 10px;
   margin : 50px 200px;
-  display:flex;
-  justify-content: space-evenly;
 }
 
 .imagestack2 {
